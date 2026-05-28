@@ -1,0 +1,18 @@
+# Town Simulation — Scenario Engine
+# Install all: pip install -r requirements.txt
+# Or with uv:  uv add -r requirements.txt
+
+# Terminal colors (required on Windows, optional on Linux/macOS)
+colorama>=0.4.6
+
+# Tab autocomplete — choose one for Windows (Linux/macOS use built-in readline)
+# prompt_toolkit is the recommended option: best Windows support, no known bugs
+prompt_toolkit>=3.0.0
+
+# pyreadline3 is an alternative if prompt_toolkit is not available
+# pyreadline3>=3.4.1
+
+# Running the test suite (optional)
+# pytest>=8.0
+# hypothesis>=6.0
+websockets>=12.0

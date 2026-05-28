@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+save_*.json
+*.json
+murderer_pkg_v10/

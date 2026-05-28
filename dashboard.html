@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Scenario Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body class="unknown">
+
+<div id="ws-status" style="position:fixed;top:4px;right:12px;font-size:10px;z-index:100;font-family:monospace;padding:2px 6px;background:rgba(0,0,0,0.4);border-radius:3px;color:#888">connecting...</div>
+<div id="topbar">
+  <h1 id="scenario-title">SCENARIO DASHBOARD</h1>
+  <span class="meta" id="top-sub"></span>
+  <div id="pressure-wrap">
+    <span id="pressure-label" class="meta"></span>
+    <div id="pressure-bar"><div id="pressure-fill"></div></div>
+    <span class="meta" id="pressure-pct"></span>
+  </div>
+  <div class="spacer"></div>
+  <span id="refresh-info">auto-refresh 2s</span>
+</div>
+
+<div id="cmd-panel" style="padding:10px 16px;background:var(--bg2);border-bottom:1px solid var(--border);min-height:52px"></div>
+<div id="layout">
+  <div id="main"></div>
+  <div id="sidebar"></div>
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
